@@ -16,7 +16,6 @@ class Cpf:
 	def _is_valid_cpf(self, document: str) -> bool:
 		if len(document) == 11:
 			document = self._format_cpf(document)
-			self.mask = document
 		return CPFValidator().validate(document)
 
 	def _format_cpf(self, document) -> str:
