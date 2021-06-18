@@ -1,8 +1,8 @@
 from typing import List
-from .abstract_classes import AbstractDocument
+from .abstract_classes import AbstractDocumentValidator
 
 
-class CPFValidator(AbstractDocument):
+class CPFValidator(AbstractDocumentValidator):
 	"""Class validator for Cadastro de Pessoas Físicas (CPF)."""
 
 	def __init__(self, repeated_digits: bool = False):
