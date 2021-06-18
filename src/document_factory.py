@@ -1,6 +1,6 @@
-from objects import Cpf, Cnpj
+from .objects import Cpf, Cnpj
 
-class DocumentParser:
+class DocumentFactory:
 	@staticmethod
 	def create_document(document):
 		if len(document) == 11:
