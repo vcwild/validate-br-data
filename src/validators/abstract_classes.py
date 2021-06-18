@@ -2,7 +2,7 @@ from abc import ABC
 from typing import List
 
 
-class AbstractDocument(ABC):
+class AbstractDocumentValidator(ABC):
 	"""Classe base para todas as classes referentes a documentos."""
 
 	def validate(self, doc: str = '') -> bool:

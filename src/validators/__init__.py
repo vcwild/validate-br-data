@@ -1,1 +1,4 @@
-from .CPFValidator import CPFValidator
+from .cpf_validator import CPFValidator
+from .cnpj_validator import CNPJValidator
+from .phone_number_validator import PhoneNumberValidator
+from .date_validators import DateMonthYearHourMinutesValidator
